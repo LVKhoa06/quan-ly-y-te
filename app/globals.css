@@ -1,5 +1,6 @@
 :root {
-
+  --header-height: 50px;
+  --footer-height: 260px;
 }
 
 * {
@@ -16,10 +17,30 @@ body {
 }
 
 body {
- 
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+
+/* Scrollbar CSS */
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 6px;
+  z-index: 999;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #0000001a;
+  z-index: 999;
+
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  z-index: 999;
+  background-color: #00000000;
 }
