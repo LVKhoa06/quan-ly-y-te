@@ -1,6 +1,8 @@
 :root {
   --header-height: 50px;
   --footer-height: 260px;
+  
+  --color-grey-0: #999
 }
 
 * {

@@ -1,8 +1,29 @@
 .header {
-    height: 50px;
+    height: 55px;
     width: 100%;
     position: sticky;
     top: 0;
     left: 0;
-    background-color: yellow;
+    display: flex;
+    box-shadow: 0 -2px 7px 0 var(--color-grey-0);
+    justify-content: space-between;
+    align-items: center; 
+    background-color: var(--background-color-2);
+    transition: background-color 0.3s ease-in;
+    
+    .darkmode{
+        margin-right: 20px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    img {
+        margin-left: 10px;
+        height: 82%;
+    }
 }

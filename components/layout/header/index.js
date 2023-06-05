@@ -2,15 +2,20 @@
 
 import classes from './main.module.scss';
 import logo from '../../../assets/img/logo.png';
+import DarkMode from '@/components/darkmode';
 
 function Header() {
 
-    return ( 
-    <div className={classes.header}>
-        {/* <img src={logo.src}/> */}
-        <h1>Header</h1>
-    </div>
-     );
+    return (
+        <div className={classes.header}>
+            <div className={classes.logo}>
+                <img src={logo.src} />
+            </div>
+            <div className={classes.darkmode}>
+                <DarkMode/>
+            </div>
+        </div>
+    );
 }
 
 export default Header;

@@ -1,5 +1,7 @@
 import Header from '../components/layout/header';
 import './globals.css';
+import './Dark.scss'
+import './Light.scss'
 import { Inter } from 'next/font/google';
 import Footer from '../components/layout/footer';
 
